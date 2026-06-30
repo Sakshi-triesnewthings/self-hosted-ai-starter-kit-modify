@@ -1,0 +1,4 @@
+# Dev/test dependencies (kept separate from runtime requirement.txt).
+# Install with:  pip install -r requirements-dev.txt
+pytest
+httpx          # required by fastapi.testclient.TestClient
